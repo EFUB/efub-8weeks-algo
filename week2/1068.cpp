@@ -22,7 +22,7 @@ int dfs(int here)
         {
             cnt++;
         }
-        if (child_list[here].size() == 1 && visited[child_list[here][0]] = 2)
+        if (child_list[here].size() == 1 && visited[child_list[here][0]] == 2)
         {
             cnt++;
         }
