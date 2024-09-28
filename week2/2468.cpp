@@ -39,7 +39,7 @@ void dfs(int y, int x)
 
 void go()
 {
-    // 가능한 높이 = 1~100
+    // 가능한 높이 = 0~100
     for (int k = 0; k < 101; k++)
     {
         limit = k;
